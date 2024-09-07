@@ -18,7 +18,10 @@ body {
   font-size: 3.6rem;
   font-weight: 700;
 }
-
+.formulario{
+  width: 200px;
+  margin:0px auto;
+}
 .content p {
   font-size: 1.2rem;
   font-weight: 400;
