@@ -12,7 +12,7 @@ const App = () => {
       <h1>GitHub App</h1>
       <p>Muestranos la informacion de un usuario en GitHub.</p>
       <Formulario setUser={setUser} />
-      <UserCard user={user} />
+      {user && (<UserCard user={user} />)}
     </div>
   );
 };
